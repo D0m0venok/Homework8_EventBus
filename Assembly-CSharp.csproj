@@ -1,0 +1,1725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9c7a4586-c07e-50d4-5ac9-7450951b021b}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2021_3_7;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Game\Events\DestroyEvent.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\Scripts\Game\Events\IEvent.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Scripts\PolygonLightFade.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts\PolygonFireProjectile.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Visual\VisualPipeline.cs" />
+     <Compile Include="Assets\Scripts\Components\ConditionComponent.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Task.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Visual\Tasks\AttackVisualTask.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Visual\Tasks\DestroyVisualTask.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts\PolygonProjectileScript.cs" />
+     <Compile Include="Assets\Scripts\Game\Events\HealingEvent.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
+     <Compile Include="Assets\Scripts\Game\Handlers\Turn\HealingHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Turn\Tasks\PlayerTurnTask.cs" />
+     <Compile Include="Assets\Scripts\Entities\HeroEntity.cs" />
+     <Compile Include="Assets\Scripts\Game\Handlers\Visual\DestroyVisualHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Handlers\Turn\AttackHandler.cs" />
+     <Compile Include="Assets\Scripts\Hero\HeroConfigs.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts\PolygonSceneSelect.cs" />
+     <Compile Include="Assets\Scripts\Components\AbilityComponent.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Turn\Tasks\StartTurnTask.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Turn\Tasks\FinishTurnTask.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Turn\TurnPipeline.cs" />
+     <Compile Include="Assets\Scripts\Components\AttackComponent.cs" />
+     <Compile Include="Assets\Scripts\Components\DamageComponent.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Turn\TurnPipelineInstaller.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Turn\TurnPipelineRunner.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts\PolygonButtonScript.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts\PolygonOrbit.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Scripts\PolygonRotation.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts\PolygonEffectCycler.cs" />
+     <Compile Include="Assets\Scripts\Entities\Entity.cs" />
+     <Compile Include="Assets\Scripts\Game\Events\DealDamageEvent.cs" />
+     <Compile Include="Assets\Scripts\Game\Handlers\BaseHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Handlers\Visual\AttackVisualHandler.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets\Scripts\Components\ViewComponent.cs" />
+     <Compile Include="Assets\Scripts\Entities\IEntity.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Scripts\ETFXRotation.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
+     <Compile Include="Assets\Scripts\Game\Handlers\Turn\DealDamageHandler.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Scripts\PolygonLightFlicker.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Scripts\Components\HealthComponent.cs" />
+     <Compile Include="Assets\Scripts\Hero\HeroConfig.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Scripts\Game\Events\AttackEvent.cs" />
+     <Compile Include="Assets\Scripts\Game\GameInstaller.cs" />
+     <Compile Include="Assets\Scripts\Game\EventBus.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts\PolygonLoopScript.cs" />
+     <Compile Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Scripts\PolygonBeamStatic.cs" />
+     <Compile Include="Assets\Scripts\Entities\HeroEntitiesService.cs" />
+     <Compile Include="Assets\Scripts\Components\TeamComponent.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Pipeline.cs" />
+     <Compile Include="Assets\Scripts\Game\Pipeline\Turn\Tasks\HandleVisualPipelineTask.cs" />
+     <Compile Include="Assets\Scripts\Game\TeamType.cs" />
+     <Compile Include="Assets\Scripts\Components\StartTurnComponent.cs" />
+     <Compile Include="Assets\Scripts\Entities\HeroListEntity.cs" />
+     <Compile Include="Assets\Scripts\Game\Handlers\BaseVisualHandler.cs" />
+     <Compile Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Water\Other" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSpikes\SpikeField" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Storm" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Sound" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Smoke\Steam" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Skull" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Entangle" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Portals\SimplePortal" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Powerups\Icons Holo" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Nova\StormNova" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Loot\GlowOrb" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Sparkle\SparkleArea" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Barrage\Nova" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Flamethrower\Pointy" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Laser" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Lightning\Sharp" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Stars\StarFogFlow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Rocket" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Aura" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Water\Bubbles" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Slash\SwordSlashThin" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Hearts" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Nature" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Loot\ChestAppear" />
+     <None Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Sniper" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Cartoon\Torch Intense" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts\VFX Library" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Sound\Prefabs\Gore" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Sniper" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Bullet" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Skulls" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Slash\Gold" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Loot" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Water\Flowing\Sharp" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Crystals" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Laser" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Nut" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Plasma" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\FrostMuzzle" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Flamethrower" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Ice" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Storm" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Sparkle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Portal\Spiky" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Scripts" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Portal" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Sharp" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSpikes" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Fireball" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Beams" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Fireball" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Materials\SurfaceTypes" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Sparks\Explosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Nature" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scenes\Environment" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\LightningMuzzle" />
+     <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Sprites" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Smoke\White" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Materials" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Main" />
+     <None Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Frost" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain\Star" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Portals" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Bullet" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Liquid" />
+     <Folder Include="Assets\Audio\Heroes\Hunter" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\BlackHole\Mega" />
+     <Folder Include="Assets\Scripts\Game\Handlers" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Necromancy\BoneField" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Misc\Grenades" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Gear" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fire\Big v2" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Flamethrower\Cartoon" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\BulletExplosion" />
+     <Folder Include="Assets\Scripts\Game\Pipeline\Visual" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\- Misc" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Rimlight\Solid\Treasure" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Liquid" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Emojis" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Nova" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\EnergyNovaSmall" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Aura Soft" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\SpikyExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Jets\Jet01" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Bullet" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Plasma" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Liquid" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fog" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Aura\ElementalAura" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Weather\Wind &amp; Leaves" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Necromancy" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Rimlight\Transparent" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Nova\Fire" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\HoneyComb" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\Gear" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Sniper" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Liquid\Drip" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Lightning\V1" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Nova" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Weather\Rain" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\SparkleMuzzle" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Zone" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Bubbles\Explosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\MegaExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain\Dollar" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Spin" />
+     <Folder Include="Assets\Scripts\Game\Handlers\Visual" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSpikes\Spike" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Powerups\PowerOrbElemental" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Barrage\Rain" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Lightning" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSpikes\SpikeWall" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Curses &amp; Debuffs\Debuffs" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Soul" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Spike" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fireflies\Simple" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Loot\LootRaySimple" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Loot\ItemSkewedGlow" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\SoulMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Powerups\Orbs\Small" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Mystic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Shield" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Holy" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Slash" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Misc" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Rocks" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Stone" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Death\Skulls" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Gore" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Loot\LootRay" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Laser" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Field" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Checkpoint" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Powerups" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Zone\MagicZone" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\ShadowExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Sparks" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Models" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\LightningExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Materials" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Basics" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Powerups\PowerOrbSmall" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain\Nut" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Hit\SwordHitMini" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Spike" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Confetti\Shower" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Sparkle" />
+     <Folder Include="Assets\Configs" />
+     <Folder Include="Assets\Audio" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Grab" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Jets\Jet05" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Charge\V2" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Confetti\Blast" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Honeycomb" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\NukeSimple" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Necromancy\BoneWall" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Confetti" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Shadow" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Emojis" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Firework" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Energy" />
+     <Folder Include="Assets\Audio\Sounds" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Rocket" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Bubbles" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Laser" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\NovaSmall" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fairies" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Brawling\Cartoony" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Magic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\NovaMissile" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Star" />
+     <Folder Include="Assets\Audio\Heroes\Paladin" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\GlitterExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Loot" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\EnergyNova" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\BulletFatMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\CritSpike" />
+     <Folder Include="Assets\Audio\Heroes\Devourer" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Antimatter" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\BombFuse" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Flies" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Antimatter" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fireworks\Fountain" />
+     <Folder Include="Assets\Prefabs\UI" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Enchant" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Bullet" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Flares\Sharp" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Underwater" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Emojis\Part 2" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\NukeConeExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Models" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Laser" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Circle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Rocket" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Lightning" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Spiky\Additive" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Sparks\Fountain" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Holy" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Regenerate\Normal" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Buff" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D\Blood\Green" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Trails" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Portal\Vortex" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\- Misc\GunFire" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Fire" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Zone" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Magic" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scenes\Combat" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Bubbles" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\RocketMuzzle" />
+     <None Include="Assets\AssetPacks\Polygon Arsenal\Shaders\Standard\PolyRimLightSelective.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Gas" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Portals\SoftPortal" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Sniper" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\MagicSoftMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Models" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Portals\SpinPortal" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Emojis\Part 1" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Nuke" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Orbital Beam" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Mystic" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Coin" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Soft\SoftFireAB" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Nova\Frost" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Dust" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Smoke" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Demo Prefabs" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Hit\SwordHitCritical" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Aura\SwirlAura" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Trail" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\Star" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Holy" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fire" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Sphere" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Textures" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Dollar" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fire\Big Spiky" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Mining" />
+     <Folder Include="Assets\Scripts\Hero" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Zone\SpinZone" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Necromancy\BoneWave" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Arrow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Scripts" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D\Water" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\NovaSmallExplosion" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\StormExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\FatBullet" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Materials\Liquids" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\StarIntenseExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\BeamUp\Cylinder" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Bubbles\Rising" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Shadow" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Feathers" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\Sphere" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Diamond" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Rocket" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\FloorTrap" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Portals\VortexPortal" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Stars" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Rimlight\Solid" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Text" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Stun" />
+     <Folder Include="Assets\Prefabs\Audio" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\RoundExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\BeamUp\Cloud" />
+     <Folder Include="Assets\Scripts\Game\Handlers\Turn" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Sound\Prefabs\Explosions" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Grenade" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSlam" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Skull" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Sword" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Enchant" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Gore\Red" />
+     <Folder Include="Assets\Scripts\Game\Pipeline\Visual\Tasks" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Soul" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\SparkleExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Nova\LightningNova" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Lights" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Zone\Simple" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\GrenadeExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Stars" />
+     <None Include="Assets\AssetPacks\Polygon Arsenal\Shaders\Standard\PolyRimLightSolid.shader" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Lightning" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Dash" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Liquid" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Curses &amp; Debuffs\Curse" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Powerups\PowerOrb" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\- Legacy\SwordHitLegacy" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fireflies" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\MagicSoft" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Flamethrower\Spray" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fireflies" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Shadow" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Hearts" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Spawn\Simple" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D\Blood" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Nature" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Spike" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Wave" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Hit\SwordHitMagic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Water" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Grenade" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Money\Coins" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Sound" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Jets\Jet03" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Textures\Skybox" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Smoke" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Standard" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\Coin" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Rimlight\Solid\BlackHole" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Gradients" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Loot\LootEssence" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Crystal" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Trails" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Brawling\Stun" />
+     <Folder Include="Assets\Scripts\Components" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Decals" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\LaserExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain\Rupee" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\SoulExplosion" />
+     <Folder Include="Assets\Scripts\Game\Pipeline" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Proton" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Lightning" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\LaserMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\BlackHole" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Grenade Utility" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fireflies\Advanced" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Arrow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Bone" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSpikes\SpikeWave" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Whirlwind" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain\Leaf" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Portal\Basic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\MagicExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Ice" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Charge" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Water\Flowing\Soft" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Blood\Green" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Shield" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Textures\SurfaceTypes" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Decals\Bullet Decal" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Blood" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Nova" />
+     <None Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D\Water\Flowing" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Rimlight\Transparent\Proton" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scenes\- Misc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Materials\Skybox" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Laser" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Stone" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Tornado" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Rimlight\Solid\Crystals" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Rimlight\Transparent\Shield" />
+     <None Include="Assets\AssetPacks\Polygon Arsenal\Polygon Arsenal 2.0 - Documentation.txt" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Leaf" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Bullet" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Regenerate\Tube" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Sound\Prefabs\Missile" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fog\White" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D\Explosions" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fireworks" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Chains" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <Folder Include="Assets\AssetPacks" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Beams\Setup" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Slash\Green" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Surface Explosion" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\BlackHole" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\Rupee" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Unsorted" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Liquid\Flow" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Cards" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Confetti\Directional" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Chains\ChainTarget" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Textures" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Sharp" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Crystal" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Decals" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Materials\Bullet Surfaces" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Smoke\Explosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D\Weather" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Curses &amp; Debuffs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Slash\Purple" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion\Rupee" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Storm" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Stars" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Powerups\Icons Bright" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\BlackHole" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\LiquidExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\NukeMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\BeamUp" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Lightning\Soft" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\FireballExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Nova\FireNova" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Water\Boiling" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Demo Prefabs\GUI" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Hit" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Soft\SoftFireADD" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Flamethrower\Soft" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Brawling" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Nuke" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Weather" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\ShadowMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Arrow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Antimatter" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Magic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Money\Bills" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Enchantment" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\MysticExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Chains\Chained" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Gore\Green" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Necromancy\BonePrison" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Fireball" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Proton" />
+     <Folder Include="Assets\Scripts\Game\Pipeline\Turn" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D\Blood\Yellow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Emojis 2" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\NukeExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Bone" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scenes" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Aura\ChargeAura" />
+     <Folder Include="Assets\Configs\Abilities" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Cartoon\Field Intense" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Magic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\EnergyNovaSmallMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Textures" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Flares" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Demo Prefabs\Cameras" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Postprocessing" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Surface Impact" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Sparkle\SparkleSolo" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\MagicSoftExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Models\Materials" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Bone" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Storm" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Death" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Fireball" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Powerups\Icons Solid" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Godrays" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Stone" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Trails\FloorTrails" />
+     <Folder Include="Assets\Audio\Music" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Explosions" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Rimlight" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Cartoon\Field" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Hit\SwordHit" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Dust" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Bone" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Zone\BasicZone" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Textures\Text" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\- Misc" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSpikes\SpikeCleaveFast" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Slash" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\EnergyNovaMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Slash\Blue" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Confetti" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Rocket" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Aura\ShieldAura" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Liquid" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Sparkle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Explosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Necromancy\BoneCleave" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\BlackHole" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal" />
+     <Folder Include="Assets\Sprites\UI" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\NukeVerticalExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Fireball" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Upgrades" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Plasma" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Skull" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Grenade" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Crystal" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fireworks\Explosion (Expensive)" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Zone\Glow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Regenerate" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Nova\EnergyNova" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Nova\Standard" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fire\Small" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fire\Big" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\LiquidMuzzle" />
+     <Folder Include="Assets\Audio\Heroes\Meditator" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\FireballMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\BlackHole\Normal" />
+     <Folder Include="Assets\Scripts\Entities" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Gas" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\MagicSoft" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Cards" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Decals\Explosion Decal" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Water\Flowing" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\StarExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Grenade Utility" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fog\Grey" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Scenes\Extras" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Bubbles" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Nuke" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Brawling\Soft" />
+     <None Include="Assets\AssetPacks\Polygon Arsenal\Shaders\Standard\PolyRimLightTransparent.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Healing" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Textures" />
+     <Folder Include="Assets\Audio\Heroes\Electro" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Decals\Energy Decal" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Portals\WavePortal" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSpikes\SpikeCleave" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Circle Simple" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Smoke\Rising" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Candle" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs 2D\Blood\Red" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Buff" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Nuke" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Powerups\Orbs" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\Leaf" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\GroundSpikes\SpikeWaveBig" />
+     <Folder Include="Assets\Audio\Heroes\Vampire" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Flamethrower\Soft\Additive" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Demo Prefabs" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fireworks\Explosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Powerups\Orbs\Big" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Plasma" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Powerups\Orbs\SparkleOrb" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fire\OilFire" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Stars\StarFog" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Slash\SwordSlashMini" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Flamethrower\Soft\Alpha Blend" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\BulletMuzzle" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Shadow" />
+     <Folder Include="Assets\Sprites\Heroes" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Grenade" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Nature" />
+     <None Include="Assets\AssetPacks\Polygon Arsenal\Shaders\Standard\PolyLitSurface.shader" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Aura\SparkleAura" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Animation" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Liquid" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\GrenadeMuzzle" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\FrostExplosion" />
+     <Folder Include="Assets\Scripts\Game" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Death" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\BulletFatExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Bullet" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\PillarBlast" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\MysticMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Grenade Utility" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Candle\CandleLightSoft" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Smoke\Dark" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Solids" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Sound\Prefabs" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Soft" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Powerups\PowerupActivate" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\BulletFat" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Lightning\V2" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Blood\Yellow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain\Coin" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Sci-Fi\Antimatter" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Shield" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Mini" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\BlackHole" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Jets\Jet04" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\SmallExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Portals" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Upgrade" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Shaders" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Fireball" />
+     <Folder Include="Assets\Scripts\Game\Pipeline\Turn\Tasks" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Powerups\PowerupGlow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Fire\Torch" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Liquid" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Sparkle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain\Gear" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\Diamond" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Shadow" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Loot\ItemSparkle" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\Slash\SwordSlashThick" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Healing" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Candle\CandleLight" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Cartoon" />
+     <Folder Include="Assets\Audio\Heroes\Mage" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\StormMuzzle" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Trails\AirTrails" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\NovaExplosion" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Nova\Lightning" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Flamethrower\Spiky" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Lightning" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Scenes" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Barrage" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Frost" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Materials\Misc" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Magic" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo" />
+     <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Items\Nut" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Soft\SoftFireBig" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Explosions\GasExplosion" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Jets\Jet02" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fog\Black" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Soft\SoftTallFire" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Textures\Emojis" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Misc" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Death\Souls" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Grenade" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Jets" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Melee &amp; Sword\Sword Impact" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\- Legacy" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Nova\SpikeNova" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Charge\V1" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Storm" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Treasure\Fountain\Diamond" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Magic\Charge" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\Proton" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Flares\Soft" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Jets\JetIdle" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Sci-Fi\NukeDome" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Ice" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Flamethrower" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Scripts" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Channel" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Demo Prefabs\VFX Library" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Cartoon\Torch" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Ice" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Loot\ItemSparkleSoft" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Weather\Snow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Sci-Fi\Grenade" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Missiles\Lightning" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc\Lightning" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Arrow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Cleave" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Proton" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Liquid" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Spawn" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Muzzleflash\MagicMuzzle" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Brawling\RoundHit" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Materials\Misc" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Aura" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Trails" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Weather" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scenes\Interactive" />
+     <Folder Include="Assets\Sprites" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Powerups" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Lightning" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Aura\DamageAura" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Spawn\Nova" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Money" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Scripts" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Bubbles\Surface" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Blood\Red" />
+     <Folder Include="Assets\Audio\Heroes\Orc" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Sword\- Legacy\SwordHitCriticalLegacy" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Environment\Liquid\Fountain" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Stars\StarVortex" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Sparks" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Portal\Glow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Interactive\Loot\LootRing" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Stone" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Muzzleflash\Magic\Holy" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Demo\Missile Prefabs\Rocket" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Nuke" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Shaders\Standard" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Missiles\Magic\Storm" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Shadow" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Explosions\Magic\Skull" />
+     <Folder Include="Assets\Audio\Heroes" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Sound\Wav" />
+     <Folder Include="Assets\Scripts\Game\Events" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Environment\Fire\Spiky" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Combat\Text" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Zone\BasicZoneWall" />
+     <Folder Include="Assets\AssetPacks\Epic Toon FX\Prefabs\Interactive\Powerups\PowerOrbSciFi" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Prefabs\Combat\Beams\Static Beam" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Missile Prefabs\Spike" />
+     <Folder Include="Assets\AssetPacks\Polygon Arsenal\Demo\Demo Prefabs\Scene" />
+     <Reference Include="UnityEngine">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Reflection.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Zenject-usage">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Unsafe">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Mdb">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Attributes">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization.Config">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Rocks">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEngineBridge.001">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="PsdPlugin">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Path.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Runtime">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Psdimporter.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.001">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Runtime">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Runtime">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Runtime">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>D:\Dev\Learning\OTUS\Homework8_EventBus\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Zenject-Editor.csproj">
+      <Project>{ca25750d-3d66-c21b-82d4-00a43dd886e2}</Project>
+      <Name>Zenject-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
+      <Project>{36241899-5957-1dca-6c21-4a11577f43cd}</Project>
+      <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{0021e391-2bdf-23b8-c143-2846611bc34a}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UI.csproj">
+      <Project>{10982a04-c88e-ebce-9e11-832155474ec1}</Project>
+      <Name>UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{5835ee5a-ad02-2b29-a7fe-913ff55d860b}</Project>
+      <Name>Zenject</Name>
+    </ProjectReference>
+    <ProjectReference Include="Conditions.csproj">
+      <Project>{334324b3-df49-7ff0-b37a-eb1e7f965e4a}</Project>
+      <Name>Conditions</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{2f213c29-4efe-0bb8-3b78-7cff3221b0f9}</Project>
+      <Name>UniTask.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="Audio.csproj">
+      <Project>{14da6c6c-4585-302c-31bf-a7551e4f4d9d}</Project>
+      <Name>Audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{5f618de4-83d4-490a-337b-99c91e678d86}</Project>
+      <Name>UniTask.DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{8bed8966-e85b-00c4-873d-6c65a6d0920a}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="Abilities.csproj">
+      <Project>{922b82d7-0488-318e-669f-159ddfb019a0}</Project>
+      <Name>Abilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tween.csproj">
+      <Project>{e46f9b16-95bc-ed49-7aa4-933bc3e5493c}</Project>
+      <Name>Tween</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{450b3976-bb82-a1c1-dc25-1cc0516972de}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
